@@ -7,7 +7,7 @@ library(rgdal)
 
 
 ###########reading the correct shape containing the polygons we need##################
-gr <- readShapeSpatial("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/shapefiles greece/GRC_adm2.shp")
+gr <- readShapeSpatial("C:/shapefiles greece/GRC_adm2.shp")
 
 ####look at the data inside the shape file####
 head(gr@data)  ##we need the NAME_2 variable for plotting later
@@ -26,12 +26,12 @@ gr@data$NAME_2 <- ifelse (gr@data$NAME_2 == "Attica", "Central Greece",as.charac
 
 
 ########loading the data concerning the crimes during 2010#########
-January_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/January_2010.txt")
-February_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/February_2010.txt")
-March_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/March_2010.txt")
-April_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/April_2010.txt")
-May_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/May_2010.txt")
-June_2010 <- read.delim("C:/Users/nick.papakonsta/Downloads/Spinellis/Spinellis/Assignment 6/June_2010.txt")
+January_2010 <- read.delim("January_2010.txt")
+February_2010 <- read.delim("February_2010.txt")
+March_2010 <- read.delim("March_2010.txt")
+April_2010 <- read.delim("April_2010.txt")
+May_2010 <- read.delim("May_2010.txt")
+June_2010 <- read.delim("June_2010.txt")
 
 
 #########look of the data##########
