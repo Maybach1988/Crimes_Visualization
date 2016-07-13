@@ -1,0 +1,15 @@
+Area	Steal_Burglary	houses	shops	holy_temples	parked_cars	public_transportation	small_burglaries_in_public_places	bag_stealing	others	Automotive_stealing	IXE_cars	IXF_cars_buses	motorcycles	motor_bike	other_vehicles	Robberies	banks	DOY	money_train	taxi_drivers	post_banks	post_distributors	gas_stations	super_markets	mobiles_and_small_amount_of_money	with_bag_stealing	others
+North Aegean	11	3	2	0	1	0	1	0	4	16	1	0	12	3	0	1	0	0	0	0	0	0	0	0	0	0	1
+South Aegean	82	21	20	0	0	0	0	8	33	28	3	1	20	4	0	2	0	0	0	0	0	0	0	0	0	0	2
+Central Macedonia	93	35	26	2	8	0	1	1	20	62	22	15	18	6	1	7	0	0	0	0	0	0	0	0	0	0	7
+Central Greece	231	89	48	7	32	0	6	1	48	65	26	9	18	12	0	8	0	0	0	0	0	0	1	3	0	0	4
+Crete	279	76	33	7	68	4	10	38	43	132	14	23	43	47	5	6	0	0	1	0	0	0	0	0	0	0	5
+Epirus	46	18	14	2	10	0	0	0	2	27	10	1	12	4	0	3	0	0	0	0	0	0	1	0	0	0	2
+West Macedonia	24	9	6	0	0	0	0	1	8	8	4	1	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+Central Macedonia	93	35	26	2	8	0	1	1	20	62	22	15	18	6	1	7	0	0	0	0	0	0	0	0	0	0	7
+East Macedonia and Thrace	78	32	26	4	2	0	7	0	7	54	9	3	26	16	0	4	0	0	0	0	1	0	0	1	0	0	2
+Ionian Islands	101	31	37	0	21	2	0	1	9	26	3	1	17	5	0	2	0	1	0	0	0	0	0	0	0	1	0
+Peloponnese	399	132	95	8	68	0	3	1	92	90	27	17	34	12	0	13	2	0	0	0	0	2	1	1	1	0	6
+West Greece	512	92	106	7	168	0	1	10	128	125	27	14	49	34	1	12	0	0	0	0	0	0	1	1	0	0	10
+Central Greece	231	89	48	7	32	0	6	1	48	65	26	9	18	12	0	8	0	0	0	0	0	0	1	3	0	0	4
+Thessaly	83	28	19	0	11	2	2	2	19	73	28	10	29	5	1	6	2	0	0	0	0	0	0	0	0	0	4
