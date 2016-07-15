@@ -10,6 +10,7 @@ shinyUI(fluidPage(
         href = "http://geodata.gov.gr/dataset/anoikhta-demosia-dedomena-egklematikotetas")),
     br(),
     
+    
   
     selectInput("months","Select Month",c("January","February","March","April","May","June")),
     #tags$div(class="header", checked=NA,
@@ -26,11 +27,20 @@ shinyUI(fluidPage(
     br(),
     selectInput("regions", "Select Region", c("North Aegean","South Aegean","Central Macedonia","Central Greece","Crete","Epirus","West Macedonia","East Macedonia and Thrace","Ionian Islands","Peloponnese","West Greece","Thessaly")),
     plotlyOutput("trendPlot")
+
     
-    
+     
   ),
   mainPanel(
-    leafletOutput("mymap",height = "800px")
-    
+    leafletOutput("mymap",height = "800px"),
+    br(),
+    br(),
+    br(),
+    HTML('<footer>
+                      <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+         <img alt="Άδεια Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
+         <br />Αυτό το εργασία χορηγείται με άδεια 
+         <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Αναφορά Δημιουργού - Παρόμοια Διανομή 4.0 Διεθνές </a>
+         </footer>')
   )
 ))
